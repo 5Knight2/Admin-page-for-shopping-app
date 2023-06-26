@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Admin page for Shopping app</title> 
+
+        
+    </head>
+
+    </html><body>
+        
+
+        <h1>
+            Add products
+        </h1>
+        <form id="form">
+            <label for:namee >name: </label>
+            <input type="text" name='namee' id="namee" required> 
+            
+            <label for='price' >price: </label>
+
+            <input type='number' name='price' id="price" required > 
+           
+            <label for=type >type: </label>
+
+            <select name='type' id="type" required> 
+                <option value="Food" > Food</option>
+                <option value="Entertainment" > Entertainment</option>
+                <option value="other" >other </option>
+
+   
+            <label for=name >submit: </label>
+
+            <input type='submit' name='price' id="price"> 
+        </form>
+
+        <br><h3>
+            Food
+        </h3>
+        <ul id="ul1">
+           
+        </ul>
+
+
+        <br><h3>
+            Entertainment
+        </h3>
+        <ul id="ul2">
+            
+        </ul>
+
+        <br><h3>
+            Other
+        </h3>
+        <ul id="ul3">
+            
+        </ul>
+
+
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="dom.js"></script>
+</html>
